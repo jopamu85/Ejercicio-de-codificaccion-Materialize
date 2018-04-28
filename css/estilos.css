@@ -3,9 +3,31 @@
 }
 .grupos {
   min-height: 50rem;
-  border: 1px solid #304ffe;
 }
 .chat {
   height: 25rem;
-  border: 1px solid #1b5e20;
+}
+.noticias .chat {
+  padding: 0 !important;
+}
+.nueva-publicacion {
+  min-height: 7rem;
+}
+.publicacion {
+  min-height: 17rem;
+  padding: 2rem;
+}
+.logo {
+  background: #01579b;
+  width: 43px;
+  margin-top: 0.5rem;
+}
+.contenido-noticias {
+  min-height: 50rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+.img-not {
+  border: 0.6rem solid #01579b;
+  border-radius: 5px;
 }
