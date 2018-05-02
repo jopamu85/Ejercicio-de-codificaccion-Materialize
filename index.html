@@ -11,73 +11,151 @@
   <body>
 
     <div class="row">
+
       <div class="col s12 light-blue darken-4 white-text encabezado">
-        <img class=" circle responsive-img logo" src="img/Logo principal.svg">
-      </div>
-      <div class="col s2 m2 l2 light-blue lighten-2 black-text grupos push-s10">
-        <span>Columna para los grupos</span>
-      </div>
-      <div class="col s10 m7 l7 light-blue lighten-3 black-text grupos pull-s2">
-        <div class="row">
-          <div class="col l8 s12 m12 indigo lighten-4 grupos z-depth-3">
-            <div class="card indigo lighten-1 nueva-publicacion"></div>
-            <div class="card indigo lighten-1 publicacion">
-              <div class="row contenido-publicacion">
-                <div class="col s12">
-                  <video class="responsive-video" controls>
-                    <source src="video/Semilla en la tierra - Carlos Chaouen.mp4" type="video/mp4">
-                  </video>
-                </div>
-              </div>
+        <div class="row fila-encabezado">
+          <div class="col s12 m8 l5">
+            <div class="col s2">
+                <img class=" circle responsive-img logo left" src="img/Logo principal.svg">
             </div>
-            <div class="card indigo lighten-1 publicacion">
-              <p>Hola, quiero compartirles mi experiencia con el curso de Next U.</p>
-              <p>Iniciando me costo mucho acostumbrarme a llegar de trabajar y empezar con la lección, pero conforme fui avanzando en el curso me fui fascinando mas con el mundo de la programación, ahora no puedo dejar de pasar un dia sin conectarme a recibir las clases y avanzar más cada dia y aprender mas</p>
-              <blockquote>Lo mas importante de esto es mantenerse motivado y tomarlo como una experiencia enriquecedora a futuro en un mediano y largo plazo.
-              </blockquote>
+            <div class="input-field col s10 left barra-busqueda">
+              <input type="text" name="busqueda"><i class="material-icons prefix">search</i>
+              <label for="busqueda">Buscar</label>
             </div>
           </div>
-          <div class="col l3 offset-l1 deep-purple lighten-3 hide-on-med-and-down noticias">
-            <div class="row">
-              <div class="col s12 deep-purple lighten-2 contenido-noticias z-depth-1">
-                <h5>Últimas noticias</h5>
-                <div class="row">
-                  <div class="col s12">
-                    <p class="truncate">Infinity War rompe con los esquemas y las expectativas del público geek así lo demuestran las críticas y los comentarios de la gente en todas las salas de cines del país</p>
-                    <div class="col s12">
-                    <img class="responsive-img img-not" src="img/Infinity.jpg" >
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col s12">
-                    <p class="truncate">Se revela finalmente la apariencia del nuevo Venom interpretado por Tom Hardy</p>
-                    <div class="col s12">
-                      <img class="responsive-img img-not" src="img/venom.jpg" >
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col s12">
-                    <p class="truncate">Playstation anuncia su nueva consola para finales de este 2018</p>
-                    <div class="col s12">
-                      <img class="responsive-img img-not" src="img/play.jpeg" >
-                    </div>
-                  </div>
-                </div>
-              </div>
+          <div class="col m5 l4 offset-m3 offset-l3 hide-on-small-only navegador">
+            <div class="col s2">
+              <a class="btn-floating btn-small light-blue waves-effect" href="#"><i class="material-icons">inbox</i> </a>
+            </div>
+            <div class="col s2">
+              <a class="btn-floating btn-small light-blue waves-effect" href="#"><i class="material-icons">drafts</i> </a>
+            </div>
+            <div class="col s2">
+              <a class="btn-floating btn-small light-blue waves-effect" href="#"><i class="material-icons">help</i> </a>
             </div>
           </div>
         </div>
       </div>
-      <div class="col l3 m3 hide-on-small-only teal lighten-2 grupos">
-        <div class="col m12 l12 cyan lighten-3 chat">
-          <h5>Bloque de actividades recientes</h5>
+        <div class="col s2 m2 l2 light-blue lighten-2 black-text grupos push-s10">
+          <ul class="collection">
+            <li class="collection-item avatar light-blue lighten-3">
+              <img src="img/captain-marvel.jpg" alt="captain-marvel" class="circle">
+              <span class="title hide-on-med-and-down">Captain Marvel</span>
+              <p class="hide-on-med-and-down" style="color:red;">Alpha Flight</p>
+            </li>
+            <li class="collection-item avatar light-blue lighten-3">
+              <img src="img/captain-america.jpg" alt="captain-america" class="circle">
+              <span class="title hide-on-med-and-down">Captain America</span>
+              <p class="hide-on-med-and-down" style="color:red;">First Avenger</p>
+            </li>
+            <li class="collection-item avatar light-blue lighten-3">
+              <img src="img/thor.jpg" alt="Thor" class="circle">
+              <span class="title hide-on-med-and-down">Thor</span>
+              <p class="hide-on-med-and-down" style="color:red;">Son of odin</p>
+            </li>
+            <li class="collection-item avatar light-blue lighten-3">
+              <img src="img/stark.jpg" alt="stark" class="circle">
+              <span class="title hide-on-med-and-down">Iron Man</span>
+              <p class="hide-on-med-and-down" style="color:red;">Multimillonaire</p>
+            </li>
+            <li class="collection-item avatar light-blue lighten-3">
+              <img src="img/rocket.jpg" alt="rocket" class="circle">
+              <span class="title hide-on-med-and-down">Rocket Raccon</span>
+              <p class="hide-on-med-and-down" style="color:red;">Captain of the Guardians</p>
+            </li>
+            <li class="collection-item avatar light-blue lighten-3">
+              <img src="img/groot.jpg" alt="groot" class="circle">
+              <span class="title hide-on-med-and-down">Groot</span>
+              <p class="hide-on-med-and-down" style="color:red;">I am groot</p>
+            </li>
+          </ul>
         </div>
-        <div class="col m12 l12 teal darken-4 white-text chat">
-          <h5>bloque de chat</h5>
+        <div class="col s10 m7 l7 light-blue lighten-3 black-text grupos pull-s2">
+          <div class="row">
+            <div class="col l8 s12 m12 indigo lighten-4 grupos z-depth-3">
+              <div class="card indigo lighten-1 nueva-publicacion">
+                <div class="card-content">
+                  <span>Escribe una nueva publicación</span>
+                  <form>
+                    <textarea class="materialize-textarea" rows="8" cols="80"></textarea>
+                    <a href="#" class="waves-effect btn-floating blue"><i class="small material-icons">code</i> </a>
+                    <a href="#" class="waves-effect btn-floating blue"><i class="small material-icons">create</i> </a>
+                    <a href="#" class="waves-effect btn-floating blue"><i class="small material-icons">mic</i> </a>
+                    <button class="btn-flat waves-effect waves-light blue white-text right hide-on-small-only" type="submit" name="action"><i class="material-icons right">send</i></button>
+                    <button class="btn-floating waves-effect waves-light blue white-text right hide-on-med-and-up" type="submit" name="action"><i class="material-icons right">send</i></button>
+                  </form>
+                </div>
+              </div>
+              <div class="card indigo lighten-1 publicacion">
+                  <div class="card-content">
+                    <span class="card-title activator">Jpmun85: <i class="material-icons right">more_vert</i> </span>
+                    <p>Excelente canción para matizar.</p>
+                  </div>
+                  <div class="card-image activator center">
+                    <video class="media-element responsive-video " src="video/Semilla en la tierra - Carlos Chaouen.mp4" controls>
+                    </video>
+                  </div>
+                  <div class="card-reveal grey white-text">
+                    <span class="card-title">Carlos Chaouen <i class="material-icons right">close</i> </span>
+                    <p>Canción: Semilla en la tierra</p>
+                  </div>
+              </div>
+              <div class="card indigo lighten-1 publicacion">
+                <div class="card-content">
+                  <span class="card-title activator">Metalero07: <i class="material-icons right">more_vert</i> </span>
+                  <p>Hola, quiero compartirles mi experiencia con el curso de Next U.</p>
+                  <blockquote>Lo mas importante de esto es mantenerse motivado y tomarlo como una experiencia enriquecedora a futuro en un mediano y largo plazo.
+                  </blockquote>
+                </div>
+                <div class="card-reveal grey white-text">
+                  <span class="card-title"><i class="material-icons right">close</i> </span>
+                  <p>Iniciando me costo mucho acostumbrarme a llegar de trabajar y empezar con la lección, pero conforme fui avanzando en el curso me fui fascinando mas con el mundo de la programación, ahora no puedo dejar de pasar un dia sin conectarme a recibir las clases y avanzar más cada dia y aprender mas</p>
+                </div>
+              </div>
+            </div>
+            <div class="col l3 offset-l1 deep-purple lighten-3 hide-on-med-and-down noticias">
+              <div class="row">
+                <div class="col s12 deep-purple lighten-2 contenido-noticias z-depth-1">
+                  <h5>Últimas noticias</h5>
+                  <div class="row">
+                    <div class="col s12">
+                      <p class="truncate">Infinity War rompe con los esquemas y las expectativas del público geek así lo demuestran las críticas y los comentarios de la gente en todas las salas de cines del país</p>
+                      <div class="col s12">
+                      <img class="responsive-img img-not" src="img/Infinity.jpg" >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12">
+                      <p class="truncate">Se revela finalmente la apariencia del nuevo Venom interpretado por Tom Hardy</p>
+                      <div class="col s12">
+                        <img class="responsive-img img-not" src="img/venom.jpg" >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12">
+                      <p class="truncate">Playstation anuncia su nueva consola para finales de este 2018</p>
+                      <div class="col s12">
+                        <img class="responsive-img img-not" src="img/play.jpeg" >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+        <div class="col l3 m3 hide-on-small-only teal lighten-2 grupos">
+          <div class="col m12 l12 cyan lighten-3 chat">
+            <h5>Bloque de actividades recientes</h5>
+          </div>
+          <div class="col m12 l12 teal darken-4 white-text chat">
+            <h5>bloque de chat</h5>
+          </div>
+        </div>
+
+
     </div>
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

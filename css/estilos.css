@@ -15,11 +15,11 @@
 }
 .publicacion {
   min-height: 17rem;
-  padding: 2rem;
+
 }
 .logo {
   background: #01579b;
-  width: 43px;
+  width: 50px;
   margin-top: 0.5rem;
 }
 .contenido-noticias {
@@ -30,4 +30,15 @@
 .img-not {
   border: 0.6rem solid #01579b;
   border-radius: 5px;
+}
+.fila-encabezado {
+  margin-bottom: 0px;
+}
+.navegador {
+  margin-top: 1rem;
+}
+@media (max-widht:600px) {
+  .grupos {
+    padding: 0 !important;
+  }
 }
