@@ -4,8 +4,9 @@
 .grupos {
   min-height: 50rem;
 }
-.chat {
+div [class*="chat"] {
   height: 25rem;
+  overflow: scroll;
 }
 .noticias .chat {
   padding: 0 !important;
